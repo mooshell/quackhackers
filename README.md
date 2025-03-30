@@ -7,3 +7,7 @@ Description: Our mobile app seeks to reduce food waste at Stevens by allowing st
 Technologies: Swift, XCode, Replit, Github
 
 Relevant Information: We have a corresponding slideshow presentation to discuss our ideas and thoughts behind our project.
+
+
+
+
