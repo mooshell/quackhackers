@@ -19,6 +19,17 @@
 		371685E42D985DAF0027D542 /* quackhacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685E32D985DAF0027D542 /* quackhacksUITests.swift */; };
 		371685E62D985DAF0027D542 /* quackhacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685E52D985DAF0027D542 /* quackhacksUITestsLaunchTests.swift */; };
 		371685F32D985F980027D542 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685F22D985F980027D542 /* map.swift */; };
+		37EFF7082D98CE5000373A99 /* mainDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF7072D98CE5000373A99 /* mainDishes.swift */; };
+		37EFF70A2D98CEF300373A99 /* Produce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF7092D98CEF300373A99 /* Produce.swift */; };
+		37EFF70C2D98D51800373A99 /* Meat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF70B2D98D51800373A99 /* Meat.swift */; };
+		37EFF70E2D98D75700373A99 /* Dairy_and_Eggs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF70D2D98D75700373A99 /* Dairy_and_Eggs.swift */; };
+		37EFF7102D98D9B800373A99 /* Bakery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF70F2D98D9B800373A99 /* Bakery.swift */; };
+		37EFF7122D98D9C500373A99 /* Beverages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF7112D98D9C500373A99 /* Beverages.swift */; };
+		37EFF7142D98D9D600373A99 /* Snacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF7132D98D9D600373A99 /* Snacks.swift */; };
+		37EFF7162D98D9E300373A99 /* Household_and_Personal_Care_Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF7152D98D9E300373A99 /* Household_and_Personal_Care_Items.swift */; };
+		37EFF7182D98DD0300373A99 /* camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF7172D98DD0300373A99 /* camera.swift */; };
+		37EFF71A2D98DD2000373A99 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF7192D98DD2000373A99 /* ImagePicker.swift */; };
+		37EFF71C2D98DD7500373A99 /* claim_giving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFF71B2D98DD7500373A99 /* claim_giving.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +65,17 @@
 		371685E32D985DAF0027D542 /* quackhacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quackhacksUITests.swift; sourceTree = "<group>"; };
 		371685E52D985DAF0027D542 /* quackhacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quackhacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		371685F22D985F980027D542 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		37EFF7072D98CE5000373A99 /* mainDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainDishes.swift; sourceTree = "<group>"; };
+		37EFF7092D98CEF300373A99 /* Produce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produce.swift; sourceTree = "<group>"; };
+		37EFF70B2D98D51800373A99 /* Meat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meat.swift; sourceTree = "<group>"; };
+		37EFF70D2D98D75700373A99 /* Dairy_and_Eggs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dairy_and_Eggs.swift; sourceTree = "<group>"; };
+		37EFF70F2D98D9B800373A99 /* Bakery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bakery.swift; sourceTree = "<group>"; };
+		37EFF7112D98D9C500373A99 /* Beverages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverages.swift; sourceTree = "<group>"; };
+		37EFF7132D98D9D600373A99 /* Snacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snacks.swift; sourceTree = "<group>"; };
+		37EFF7152D98D9E300373A99 /* Household_and_Personal_Care_Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Household_and_Personal_Care_Items.swift; sourceTree = "<group>"; };
+		37EFF7172D98DD0300373A99 /* camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera.swift; sourceTree = "<group>"; };
+		37EFF7192D98DD2000373A99 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		37EFF71B2D98DD7500373A99 /* claim_giving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claim_giving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,15 +126,26 @@
 		371685C72D985DAD0027D542 /* quackhacks */ = {
 			isa = PBXGroup;
 			children = (
-				371685C82D985DAD0027D542 /* quackhacksApp.swift */,
+				370A69972D9868D300E3F49A /* usersignin.swift */,
 				371685CA2D985DAD0027D542 /* ContentView.swift */,
+				371685C82D985DAD0027D542 /* quackhacksApp.swift */,
 				371685F22D985F980027D542 /* map.swift */,
 				371685CC2D985DAE0027D542 /* Assets.xcassets */,
 				371685CE2D985DAE0027D542 /* Preview Content */,
-				370A69972D9868D300E3F49A /* usersignin.swift */,
 				370A69992D989EFD00E3F49A /* usercreate.swift */,
 				370A699D2D98A1B300E3F49A /* logincreated.swift */,
 				370A699F2D98A68500E3F49A /* Catergories.swift */,
+				37EFF7072D98CE5000373A99 /* mainDishes.swift */,
+				37EFF7092D98CEF300373A99 /* Produce.swift */,
+				37EFF70B2D98D51800373A99 /* Meat.swift */,
+				37EFF70D2D98D75700373A99 /* Dairy_and_Eggs.swift */,
+				37EFF70F2D98D9B800373A99 /* Bakery.swift */,
+				37EFF7112D98D9C500373A99 /* Beverages.swift */,
+				37EFF7132D98D9D600373A99 /* Snacks.swift */,
+				37EFF7152D98D9E300373A99 /* Household_and_Personal_Care_Items.swift */,
+				37EFF7172D98DD0300373A99 /* camera.swift */,
+				37EFF7192D98DD2000373A99 /* ImagePicker.swift */,
+				37EFF71B2D98DD7500373A99 /* claim_giving.swift */,
 			);
 			path = quackhacks;
 			sourceTree = "<group>";
@@ -272,13 +305,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37EFF7182D98DD0300373A99 /* camera.swift in Sources */,
+				37EFF70C2D98D51800373A99 /* Meat.swift in Sources */,
+				37EFF71C2D98DD7500373A99 /* claim_giving.swift in Sources */,
+				37EFF7082D98CE5000373A99 /* mainDishes.swift in Sources */,
+				37EFF71A2D98DD2000373A99 /* ImagePicker.swift in Sources */,
+				37EFF7142D98D9D600373A99 /* Snacks.swift in Sources */,
+				37EFF7122D98D9C500373A99 /* Beverages.swift in Sources */,
 				371685F32D985F980027D542 /* map.swift in Sources */,
+				37EFF70A2D98CEF300373A99 /* Produce.swift in Sources */,
+				37EFF70E2D98D75700373A99 /* Dairy_and_Eggs.swift in Sources */,
+				37EFF7102D98D9B800373A99 /* Bakery.swift in Sources */,
 				371685CB2D985DAD0027D542 /* ContentView.swift in Sources */,
 				370A69982D9868D300E3F49A /* usersignin.swift in Sources */,
 				371685C92D985DAD0027D542 /* quackhacksApp.swift in Sources */,
 				370A699E2D98A1B300E3F49A /* logincreated.swift in Sources */,
 				370A699A2D989EFD00E3F49A /* usercreate.swift in Sources */,
 				370A69A02D98A68500E3F49A /* Catergories.swift in Sources */,
+				37EFF7162D98D9E300373A99 /* Household_and_Personal_Care_Items.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

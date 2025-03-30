@@ -1,4 +1,3 @@
-//
 //  usersignin.swift
 //  quackhacks
 //
@@ -6,32 +5,28 @@
 //
 import SwiftUI
 
-
 struct UserSignIn: View {
     @State private var showNewUser = false
     @State private var name = ""
     @State private var username = ""
     @State private var password = ""
     
-    
-    
     var body: some View {
         ZStack {
             Color(red: 162/255, green: 162/255, blue: 162/255)
                 .ignoresSafeArea()
-            
             VStack {
                 Text("LOG IN OR SIGNUP HERE!")
-                    .padding(.bottom, 600)
+                    .padding(.bottom, 20)
                     .font(.title)
                     .foregroundColor(Color(red: 173/255, green: 32/255, blue: 3/255))
                     .fontWeight(.bold)
-                
-                Button("New User?") {
-                    self.showNewUser = true
+                if !showNewUser {
+                    Button("New User?") {
+                        self.showNewUser = true
+                    }
+                    .padding(.top, 20)
                 }
-                .padding()
-                
                 if showNewUser {
                     VStack {
                         TextField("Name", text: $name)
@@ -52,18 +47,20 @@ struct UserSignIn: View {
                             .cornerRadius(5)
                             .padding(.bottom, 20)
                         
-                        Button("Create Account") {
-                            self.showNewUser = false
+                        NavigationLink(destination: Categories()) {
+                            Button(action: {
+                                self.showNewUser = false // Close the sign-up form
+                            }) {
+                                Text("Create Account")
+                                    .padding()
+                                    .background(Color(red: 173/255, green: 32/255, blue: 3/255))
+                                    .foregroundColor(.white)
+                                    .cornerRadius(10)
+                            }
                         }
-                        .padding()
-                        .background(Color(red: 173/255, green: 32/255, blue: 3/255))
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
+
+            
                     }
-                    .padding()
-                    .background(Color.white)
-                    .cornerRadius(10)
-                    .shadow(radius: 10)
                 }
             }
         }

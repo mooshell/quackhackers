@@ -25,7 +25,7 @@ struct ContentView: View {
                         .fontWeight(.bold)
 
                     
-                   NavigationLink(destination: usersignin()) {
+                   NavigationLink(destination: Categories()) {
                         Text("Register or Sign In as a User")
                             .fixedSize(horizontal: false, vertical: true)
                             .multilineTextAlignment(.center)
