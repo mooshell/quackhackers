@@ -20,24 +20,54 @@
 **How FlockShare Works**
 
 1. User opens app and is prompted to register or sign in
-
-   - If new user is selected the user is prompted to create an account.
-     ![App_Intro](App_Photos_ReadMe/App_Intro.png)
-
-   - If returning user is selected the user is prompted to input login credentials.
    
+    <img src="App_Photos_ReadMe/App_Intro.png" width=15% height=15%>
+
+
+2. User can select either option on the second page
+   
+   <img src="App_Photos_ReadMe/App_2.png" width=15% height=15%>
+   
+3. If the user selects ReturningUser they will be prompted to input their credentials
+
+   <img src="App_Photos_ReadMe/App_3.png" width=15% height=15%>
 
 3. The user is then prompted to enter their zipcode which allows the app to determine location. Once locaiton is determined the user can choose to either give food or receive food.
 
-4. Giving Food
-   - The user is able to choose whether they would like to select a photo from their gallery or take a picture of their item.
-   -  Once a picture is submitted their have been successfully been able to donate
+   <img src="App_Photos_ReadMe/App_4.png" width=15% height=15%>
 
-5. Receving Food
+5. Giving Food
+   - The user is able to choose whether they would like to select a photo from their gallery or take a picture of their item.
+     
+   <img src="App_Photos_ReadMe/App_5.png" width=15% height=15%>
+
+   - If they choose a photo form their gallery they can select a photo
+     
+   <img src="App_Photos_ReadMe/App_6.png" width=15% height=15%>
+
+   - Then input a description of their item
+   <img src="App_Photos_ReadMe/App_7.png" width=15% height=15%>
+   
+   -  Once a picture is submitted they have been successfully been able to donate
+     
+   <img src="App_Photos_ReadMe/App_8.png" width=15% height=15%>
+
+6. Receving Food
    - The user can choose from a selection of grocery departments.
+     
+   <img src="App_Photos_ReadMe/App_9.png" width=15% height=15%>
+   
    - Once a selection is made the user can see a list of items that is sorted by distance.
+     
+   <img src="App_Photos_ReadMe/App_10.png" width=15% height=15%>
+   
    - After making a selection the user must confirm their selection.
-   - Once confirmation is given they will be shown a QR code which will allow the user to retrieve their item. 
+
+      <img src="App_Photos_ReadMe/App_11.png" width=15% height=15%>
+      
+   - Once confirmation is given they will be shown a QR code which will allow the user to retrieve their item.
+  
+      <img src="App_Photos_ReadMe/App_12.png" width=15% height=15%>
 
   
   
