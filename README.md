@@ -22,7 +22,7 @@
 1. User opens app and is prompted to register or sign in
 
    - If new user is selected the user is prompted to create an account.
-     ![App_Intro](Photos/App_Intro.png)
+     ![App_Intro](App_Photos_ReadMe/App_Intro.png)
 
    - If returning user is selected the user is prompted to input login credentials.
    
