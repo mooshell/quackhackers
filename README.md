@@ -63,18 +63,20 @@
    
    - After making a selection the user must confirm their selection.
 
-      <img src="App_Photos_ReadMe/App_11.png" width=15% height=15%>
+   <img src="App_Photos_ReadMe/App_11.png" width=15% height=15%>
       
    - Once confirmation is given they will be shown a QR code which will allow the user to retrieve their item.
   
-      <img src="App_Photos_ReadMe/App_12.png" width=15% height=15%>
+   <img src="App_Photos_ReadMe/App_12.png" width=15% height=15%>
 
   
   
-**Updates**
+**Future Updates**
 
- Since we only had 24 hours, we prioritized making the app functional and intuitive, laying the groundwork for future development. If Flock Share were to be fully implemented, there are a few exciting next steps:
-  First, we would like to integrate the locker system to provide a secure, contactless pickup method for students to access food safely. Next, we want to implement a rewards system so every time a student shares or picks up food, they earn ducks. For every five ducks, they get $1 in DuckBills which is our campus currency. Stevens is one of the few schools without a dedicated food pantry. While Flock Share isn’t a pantry, it provides an immediate, community-driven solution to food insecurity by connecting students who have extra food with those who need it.
+Since we only had 24 hours, we prioritized making the app functional and intuitive, laying the groundwork for future development. If Flock Share were to be fully implemented, there are a few exciting next steps:
+First, we would like to integrate the locker system to provide a secure, contactless pickup method for students to access food safely. Next, we want to implement a rewards system so every time a student shares or picks up food, they earn ducks. For every five ducks, they get $1 in DuckBills which is our campus currency. Stevens is one of the few schools without a dedicated food pantry. While Flock Share isn’t a pantry, it provides an immediate, community-driven solution to food insecurity by connecting students who have extra food with those who need it.
+
+**Contributions**
   
   
   Flock Share isn’t just about reducing food waste—it’s about building a community that looks out for one another. At the heart of it all, our goal is simple: Flock Share – A community that shares, cares. Thank you!
