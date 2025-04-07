@@ -1,4 +1,4 @@
-**Name of Team:** FlockShare
+## FlockShare
 
 **Team Members:** Anjali Gupta, Nadia Lara, Janani Rao, Michelle Flores 
 
