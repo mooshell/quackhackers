@@ -14,41 +14,38 @@
   Title Slide:
   Good morning, everyone! We’re excited to introduce you to Flock Share, our solution to reducing food waste and tackling food insecurity on college campuses.
   
-  Slide 1:
+ **Objective**
   Every year, about 60 million tons of food is wasted in the U.S., and college campuses contribute significantly to this issue. Students often purchase food but struggle to finish it before it goes bad. At the same time, many students experience food insecurity, unsure of where their next meal will come from. Flock Share was created to bridge this gap. It provides an easy way for students to share their extra food with others who need it, fostering a culture of sustainability and community support on college campuses.
   
-  Slide 2:
-  Flock Share is a two-part system: a mobile application and an integrated locker system designed to make food sharing seamless and accessible.
-  The mobile app allows students to:
-  - List extra food they no longer need by uploading a photo and description.
-  
-  - Browse available food posted by others nearby.
-  
-  - Claim food others have posted.
-  
-  
-  The locker system ensures secure exchanges:
-  - Once a food item is claimed, the donor places it in a designated locker.
-  
-  - The app generates a unique code for the recipient to unlock the locker.
-  
-  
-  Slide 3:
-  "For this hackathon, we focused on developing the mobile application as the core of the system. We used Xcode and Swift to build the app, integrating key features such as:"
-  - GPS tracking to show available food nearby.
+**How FlockShare Works**
 
-  - Image capture & photo library access for food listings.
+1. User opens app and is prompted to register or sign in
+
+   - If new user is selected the user is prompted to create an account.
+
+   - If returning user is selected the user is prompted to input login credentials.
+   
+
+3. The user is then prompted to enter their zipcode which allows the app to determine location. Once locaiton is determined the user can choose to either give food or receive food.
+
+4. Giving Food
+   - The user is able to choose whether they would like to select a photo from their gallery or take a picture of their item.
+   -  Once a picture is submitted their have been successfully been able to donate
+
+5. Receving Food
+   - The user can choose from a selection of grocery departments.
+   - Once a selection is made the user can see a list of items that is sorted by distance.
+   - After making a selection the user must confirm their selection.
+   - Once confirmation is given they will be shown a QR code which will allow the user to retrieve their item. 
+
   
   
-  Since we only had 24 hours, we prioritized making the app functional and intuitive, laying the groundwork for future development.
-  Demo:
-  Now, let’s take a look at how Flock Share works in action.
-  
-  Slide 4:
-  If Flock Share were to be fully implemented, there are a few exciting next steps:
+**Updates**
+
+ Since we only had 24 hours, we prioritized making the app functional and intuitive, laying the groundwork for future development. If Flock Share were to be fully implemented, there are a few exciting next steps:
   First, we would like to integrate the locker system to provide a secure, contactless pickup method for students to access food safely. Next, we want to implement a rewards system so every time a student shares or picks up food, they earn ducks. For every five ducks, they get $1 in DuckBills which is our campus currency. Stevens is one of the few schools without a dedicated food pantry. While Flock Share isn’t a pantry, it provides an immediate, community-driven solution to food insecurity by connecting students who have extra food with those who need it.
   
-  Slide 5:
+  
   Flock Share isn’t just about reducing food waste—it’s about building a community that looks out for one another. At the heart of it all, our goal is simple: Flock Share – A community that shares, cares. Thank you!
   
   
