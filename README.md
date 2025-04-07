@@ -5,8 +5,6 @@
 **Description:** Our mobile app seeks to reduce food waste at Stevens by allowing students to give and recieve food that would have been wasted. A user can upload an image or use their camera to take upload an item and corresponding users can claim those items and will recieve a confirmation QR code.  
 
 **Technologies:** Swift, XCode, Replit, Github, Canva, PowerPoint, GenAI
-
-**Relevant Information:** We have a corresponding slideshow presentation to discuss our ideas and thoughts behind our project.
   
  ### Objective
   Every year, about 60 million tons of food is wasted in the U.S., and college campuses contribute significantly to this issue. Students often purchase food but struggle to finish it before it goes bad. At the same time, many students experience food insecurity, unsure of where their next meal will come from. Flock Share was created to bridge this gap. It provides an easy way for students to share their extra food with others who need it, fostering a culture of sustainability and community support on college campuses.
